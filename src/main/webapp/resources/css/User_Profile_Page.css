@@ -1,0 +1,1274 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:#0C0F12;
+
+}
+
+@media (min-width:1024px) and (max-width:1540px){
+.Wrapper_User_profile{
+  height: 694px;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.Wrapper_User_profile_1{
+  width: 100%;
+  height: 8%;
+  /* border: 1px solid white; */
+  background-color:#57515b;
+  background-color:#0C0F12;
+}
+#toggleButton{
+  width: 200px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  }
+  #toggleButton:hover{
+      background-color: #52575C;
+  }
+  .dropdown{
+      margin-left: 90%;
+      margin-top: 0.4%;
+  }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color:black;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  /* border: 1px solid yellow; */
+}
+#main{
+  /* border: 1px solid green; */
+  height:70%;
+  width: 50%;
+  margin-left: 30%;
+}
+.container {margin-top: 8%;
+  /* border: 1px solid red; */
+  height: 66%;
+  margin-left: 20%;
+}
+.container_2{margin-top: 2%;
+  /* border: 1px solid red; */
+  height: 14%;
+}
+
+#name{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.9%;
+}
+#password{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#Email{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#contactnumber{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#address{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+.updatebutton{
+  margin-top:-100px;
+  margin-left: 52%;
+  height: 40px;
+  width:100px;
+  border-radius: 5px;
+}
+.updatebutton h3{
+  font-size: 15px;
+   margin-top: 8px; 
+     font-family: "Poppins", sans-serif;
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+  background-color: #f44336;
+  height: 80%;
+  width: 20%;
+  margin-top: 1%;
+  margin-left: 4%;
+  border: none;
+}
+.cancelbtn h3{
+  font-size: 15px;
+margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* The Modal (background) */
+.modal_2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+background-color:transparent;
+  padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color:white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  /* border: 1px solid yellow; */
+}
+#main_2{
+  /* border: 1px solid green; */
+  height:200px;
+  width: 26%;
+  margin-top: 10%;
+  margin-left: 37%;
+}
+.container_3{margin-top: 8%;
+  /* border: 1px solid red; */
+  height: 66%;
+  margin-top: 16%;
+  background-color: white;
+  /* margin-left: 20%; */
+}
+.container_3 h4{
+  font-size: 15px;
+  margin-top: 10px;
+    background-color: white;
+font-family: "Poppins", sans-serif;
+margin-top: 3%;
+margin-left: 6%;
+color:black;
+}
+/* .container_4{margin-top: 2%;
+  border: 1px solid red;
+  height: 14%;
+} */
+.Deletebutton{
+  background-color: #46d240;
+  height: 32%;
+  width: 22%;
+  margin-top: 10%;
+  margin-left: 5%;
+  border: none;
+}
+.Deletebutton h3{
+  font-size: 15px;
+  background-color: #46d240;
+  margin-top: 10px;
+     font-family: "Poppins", sans-serif;
+}
+/* Extra styles for the cancel button */
+.cancelbtn_1 {
+  background-color: #f44336;
+  height: 32%;
+  width: 22%;
+  margin-top: 10%;
+  margin-left: 40%;
+  border: none;
+  
+}
+.cancelbtn_1 h3{
+  font-size: 15px;
+margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+    background-color: #f44336;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+   background-color:white;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+
+
+
+.Wrapper_User_profile_2{
+  width: 100%;
+  height: 46%;
+  /* border: 1px solid white; */
+  flex-direction: column;
+  display: flex;
+  background-color:#0C0F12;
+ 
+}
+.w1{
+  margin-top: 3%;
+  /* border: 1px solid #000; */
+  height: 7%;
+  width: 33%;
+  margin-left: 4%;
+  
+}
+.w1 h3{
+  font-size: 15px;
+  margin-top: 10px;
+     font-family: "Poppins", sans-serif;
+     color: white;
+}
+.w2{
+  margin-top: 1%;
+  /* border: 1px solid #000; */
+  height: 7%;
+  width: 33%;
+  margin-left: 4%;
+  
+}
+
+.w2 h3{
+  font-size: 15px;
+  margin-top: 10px;
+     font-family: "Poppins", sans-serif;
+     color: white;
+}
+
+
+.Wrapper_User_profile_3{
+  width: 100%;
+  height: 46%;
+  /* border: 1px solid white; */
+  background-color:  #191514 ;
+
+}
+
+/* <!-- website-section-2-movie_poster_scrollbar-starting --> */
+
+.section-2-Trending-Top-10-main_desktop{
+  height: 44vh;
+  width: 100%;
+margin-top: 4px;
+}
+.section-2-trending-1{
+  height: 9%;
+  width: 98%;
+  margin-left:1%;
+  border-radius: 5px;
+}
+.section-2-trending-1 h1{
+margin-left: 5px;
+margin-top: 7px;
+font-size: 100%;
+font-weight: 500;
+color: white;
+background-color: transparent;
+font-family: "Poppins", sans-serif;
+}
+.parent-2-1 {
+  width: 98%;
+  height: 38vh;
+  margin-top:1px;
+  margin-left: 1%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical overflow */
+  white-space: nowrap; /* Prevent content from wrapping */
+  position: relative;
+}
+.scroll-container-2-1{
+  display: inline-flex;
+}
+.child-2-1{
+  flex: 0 0 auto;
+  margin-right: 10px;
+  margin-top:0.3%;
+  height:50%;
+width: 10%;
+margin-left:12px;
+/* border: 1px solid white; */
+transition: transform .2s; /* Animation */
+position: relative;
+border-radius: 4px;
+}
+.child-2-1 img {
+  /* height: 100%;
+  width: auto; */
+  height: 100%;
+width: 100%;
+display: block;
+border-radius: 4px;
+}
+.child-2-1 :hover {
+  transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 4px solid #D51C78;
+  border-radius: 8px;
+}
+.child-2-1 a button {
+height: 100%;
+width: 100%;
+border-radius: 4%;
+
+}
+
+
+/* Customize the scrollbar */
+.parent::-webkit-scrollbar {
+  height: 8px;
+}
+.parent::-webkit-scrollbar-track {
+  background:#0B0B0B;
+}
+.parent::-webkit-scrollbar-thumb {
+  background-color:#0B0B0B;
+  border-radius: 10px;
+}
+.parent::-webkit-scrollbar-thumb:hover {
+  background: #0B0B0B; 
+}
+@media (max-width: 768px) {
+  .child {
+      margin-right: 5px;
+  }
+  .child img {
+      border-radius: 4px;
+  }
+}
+
+
+
+
+}
+
+
+@media (max-width:1024px){
+
+  .Wrapper_User_profile{
+    height: 694px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+  .Wrapper_User_profile_1{
+    width: 100%;
+    height: 8%;
+    /* border: 1px solid white; */
+    background-color:#0C0F12;
+  }
+  #toggleButton{
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    }
+    #toggleButton:hover{
+        background-color: #52575C;
+    }
+    .dropdown{
+        margin-left: 85%;
+        margin-top: 0.6%;
+    }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    /* border: 1px solid yellow; */
+  }
+  #main{
+    /* border: 1px solid green; */
+    height:400px;
+    width: 50%;
+    margin-left:25%;
+  }
+  .container {margin-top: 8%;
+    /* border: 1px solid red; */
+    height: 66%;
+    margin-left: 20%;
+  }
+  .container_2{margin-top: 2%;
+    /* border: 1px solid red; */
+    height: 14%;
+  }
+
+#name{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.9%;
+}
+#password{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#Email{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#contactnumber{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+
+#address{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.3%;
+}
+  .updatebutton{
+    margin-top: 5.4%;
+    margin-left: 42%;
+    height: 32px;
+    width:80px;
+    border-radius: 5px;
+  }
+  .updatebutton h3{
+    font-size: 15px;
+     margin-top: 4px; 
+       font-family: "Poppins", sans-serif;
+  }
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+    height: 80%;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 4%;
+    border: none;
+  }
+  .cancelbtn h3{
+    font-size: 15px;
+ margin-top: 10px;
+    background-color: #f44336;
+    font-family: "Poppins", sans-serif;
+  }
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }  
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  /* The Modal (background) */
+  .modal_2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    /* border: 1px solid yellow; */
+  }
+  #main_2{
+    /* border: 1px solid green; */
+    height:200px;
+    width: 40%;
+    margin-top: 10%;
+    margin-left:30%;
+  }
+  .container_3{margin-top: 8%;
+    /* border: 1px solid red; */
+    height: 66%;
+    margin-top: 16%;
+    /* margin-left: 20%; */
+  }
+  .container_3 h4{
+    font-size: 14px;
+    margin-top: 10px;
+ font-family: "Poppins", sans-serif;
+margin-top: 3%;
+margin-left: 6%;
+  }
+  /* .container_4{margin-top: 2%;
+    border: 1px solid red;
+    height: 14%;
+  } */
+  .Deletebutton{
+    background-color: #46d240;
+    height: 32%;
+    width: 22%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: none;
+  }
+  .Deletebutton h3{
+     background-color: #46d240;
+    font-size: 12px;
+    margin-top: 10px;
+       font-family: "Poppins", sans-serif;
+  }
+/* Extra styles for the cancel button */
+.cancelbtn_1 {
+    background-color: #f44336;
+    height: 32%;
+    width: 22%;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: none;
+  }
+  .cancelbtn_1 h3{
+    background-color: #f44336;
+    font-size: 12px;
+ margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }  
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  .Wrapper_User_profile_2{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    display: flex;
+    background-color:#0C0F12;
+  }
+.w1{
+    margin-top: 3%;
+    /* border: 1px solid #000; */
+    height: 7%;
+    width: 100%;
+    margin-left: 4%;
+    
+}
+.w1 h3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+       font-family: "Poppins", sans-serif;
+}
+.w2{
+    margin-top: 1%;
+    /* border: 1px solid #000; */
+    height: 7%;
+    width: 100%;
+    margin-left: 4%;
+    
+}
+
+.w2 h3{
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+       font-family: "Poppins", sans-serif;
+}
+
+
+.Wrapper_User_profile_3{
+  width: 100%;
+  height: 16%;
+  /* border: 1px solid white; */
+  background-color:#0C0F12;
+
+
+}
+
+/* <!-- website-section-2-movie_poster_scrollbar-starting --> */
+
+.section-2-Trending-Top-10-main_desktop{
+  height: 38vh;
+  width:100%;
+margin-top: 4px;
+border: 1px solid red;
+}
+.section-2-trending-1{
+  height: 9%;
+  width: 98%;
+  margin-left:1%;
+  border-radius: 5px;
+  border: 1px solid red;
+  /* background-color: antiquewhite; */
+}
+.section-2-trending-1 h1{
+margin-left: 5px;
+font-size: 109%;
+font-weight: 500;
+color: white;
+background-color: transparent;
+font-family: "Poppins", sans-serif;
+}
+.parent-2-1 {
+  width: 98%;
+  height: 33vh;
+  margin-top:1px;
+  margin-left: 1%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical overflow */
+  white-space: nowrap; /* Prevent content from wrapping */
+  position: relative;
+  border: 1px solid red;
+  /* background-color: yellow; */
+}
+.scroll-container-2-1{
+  display: inline-flex;
+}
+.child-2-1{
+  flex: 0 0 auto;
+  margin-right: 10px;
+  margin-top:1.8%;
+  height:50%;
+width: 14.6%;
+margin-left:12px;
+/* border: 1px solid white; */
+transition: transform .2s; /* Animation */
+position: relative;
+border-radius: 4px;
+border: 1px solid red;
+}
+.child-2-1 img {
+  /* height: 100%;
+  width: auto; */
+  height: 100%;
+width: 100%;
+display: block;
+border-radius: 4px;
+}
+.child-2-1 :hover {
+  transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 4px solid #D51C78;
+  border-radius: 8px;
+}
+.child-2-1 a button {
+height: 100%;
+width: 100%;
+border-radius: 4%;
+
+}
+
+
+/* Customize the scrollbar */
+.parent::-webkit-scrollbar {
+  height: 8px;
+}
+.parent::-webkit-scrollbar-track {
+  background:#0B0B0B;
+}
+.parent::-webkit-scrollbar-thumb {
+  background-color:#0B0B0B;
+  border-radius: 10px;
+}
+.parent::-webkit-scrollbar-thumb:hover {
+  background: #0B0B0B; 
+}
+@media (max-width: 768px) {
+  .child {
+      margin-right: 5px;
+  }
+  .child img {
+      border-radius: 4px;
+  }
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:480px){
+
+  .Wrapper_User_profile{
+    height: 694px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+  .Wrapper_User_profile_1{
+    width: 100%;
+    height: 8%;
+    /* border: 1px solid white; */
+    background-color:#0C0F12;
+  }
+  #toggleButton{
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    }
+    #toggleButton:hover{
+        background-color: #52575C;
+    }
+    .dropdown{
+        margin-left: 54%;
+        margin-top:2.3%;
+        height: 90%;
+        width: 60%;
+    }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: black;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    /* border: 1px solid yellow; */
+  }
+  #main{
+    /* border: 1px solid green; */
+    height:300px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .container {margin-top: 8%;
+    /* border: 1px solid red; */
+    height: 80%;
+    margin-left: 20%;
+  }
+  .container_2{
+    /* border: 1px solid red; */
+    height: 14%;
+  }
+
+#name{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 1.2%;
+}
+#password{
+  height: 14%;
+  margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.1%;
+}
+
+#Email{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.1%;
+}
+
+#contactnumber{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.1%;
+}
+
+#address{
+  height: 14%;
+   margin-left:-3%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+margin-top: 0.1%;
+}
+  .updatebutton{
+    margin-top: 1%;
+    margin-left: 7%;
+    height: 26px;
+    width:80px;
+    border-radius: 5px;
+  }
+  .updatebutton h3{
+    font-size: 15px;
+     margin-top: 3px; 
+       font-family: "Poppins", sans-serif;
+  }
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+    height: 80%;
+    width: 20%;
+    margin-left: 4%;
+    border: none;
+  }
+  .cancelbtn h3{
+    font-size: 11px;
+ margin-top: 9px;
+    font-family: "Poppins", sans-serif;
+  }
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }  
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  /* The Modal (background) */
+  .modal_2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    /* background-color: #fefefe; */
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    /* border: 1px solid yellow; */
+  }
+  #main_2{
+    /* border: 1px solid green; */
+    height:200px;
+    width:100%;
+    margin-top: 20%;
+    margin-left:0%;
+  }
+  .container_3{margin-top: 8%;
+    /* border: 1px solid red; */
+    height: 66%;
+    margin-top: 16%;
+    /* margin-left: 20%; */
+  }
+  .container_3 h4{
+    font-size: 12px;
+    margin-top: 10px;
+ font-family: "Poppins", sans-serif;
+margin-top: 3%;
+margin-left: 6%;
+  }
+  /* .container_4{margin-top: 2%;
+    border: 1px solid red;
+    height: 14%;
+  } */
+  .Deletebutton{
+    background-color: #46d240;
+    height: 32%;
+    width: 22%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border: none;
+  }
+  .Deletebutton h3{
+    font-size: 12px;
+    margin-top: 10px;
+       font-family: "Poppins", sans-serif;
+  }
+/* Extra styles for the cancel button */
+.cancelbtn_1 {
+    background-color: #f44336;
+    height: 32%;
+    width: 22%;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: none;
+  }
+  .cancelbtn_1 h3{
+    font-size: 12px;
+ margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }  
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  .Wrapper_User_profile_2{
+    width: 100%;
+    height: 80%;
+    border: 1px solid white;
+    flex-direction: column;
+    display: flex;
+    background-color:#0C0F12;
+  }
+.w1{
+    margin-top: 12%;
+    /* border: 1px solid #000; */
+    height: 5%;
+    width: 100%;
+    margin-left: 4%;
+    
+}
+.w1 h3{
+    font-size: 10px;
+    margin-top: 5px;
+       font-family: "Poppins", sans-serif;
+       color: white;
+}
+.w2{
+    margin-top: 1%;
+    /* border: 1px solid #000; */
+    height: 5%;
+    width: 100%;
+    margin-left: 4%;
+    
+}
+
+.w2 h3{
+  font-size: 10px;
+  margin-top: 5px;
+     font-family: "Poppins", sans-serif;
+     color: white;
+}
+
+
+
+.Wrapper_User_profile_3{
+  width: 100%;
+  height: 16%;
+  /* border: 1px solidm white; */
+margin-top: -103%;
+  border: 1px solid white;
+  background-color:#0C0F12;
+}
+
+/* <!-- website-section-2-movie_poster_scrollbar-starting --> */
+
+.section-2-Trending-Top-10-main_desktop{
+  height: 25vh;
+  width:100%;
+margin-top: 4px;
+border: 1px solid red;
+}
+.section-2-trending-1{
+  height: 12%;
+  width: 98%;
+  margin-left:1%;
+  border-radius: 5px;
+  border: 1px solid red;
+  /* background-color: antiquewhite; */
+}
+.section-2-trending-1 h1{
+margin-left: 5px;
+font-size: 67%;
+font-weight: 500;
+color: white;
+background-color: transparent;
+font-family: "Poppins", sans-serif;
+}
+.parent-2-1 {
+  width: 98%;
+  height: 21vh;
+  margin-top:1px;
+  margin-left: 1%;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical overflow */
+  white-space: nowrap; /* Prevent content from wrapping */
+  position: relative;
+  border: 1px solid red;
+  /* background-color: yellow; */
+}
+.scroll-container-2-1{
+  display: inline-flex;
+}
+.child-2-1{
+  flex: 0 0 auto;
+  margin-right: 10px;
+  margin-top:1.8%;
+  height:50%;
+width: 14.6%;
+margin-left:12px;
+/* border: 1px solid white; */
+transition: transform .2s; /* Animation */
+position: relative;
+border-radius: 4px;
+border: 1px solid red;
+}
+.child-2-1 img {
+  /* height: 100%;
+  width: auto; */
+  height: 100%;
+width: 100%;
+display: block;
+border-radius: 4px;
+}
+.child-2-1 :hover {
+  transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 4px solid #D51C78;
+  border-radius: 8px;
+}
+.child-2-1 a button {
+height: 100%;
+width: 100%;
+border-radius: 4%;
+
+}
+
+
+/* Customize the scrollbar */
+.parent::-webkit-scrollbar {
+  height: 8px;
+}
+.parent::-webkit-scrollbar-track {
+  background:#0B0B0B;
+}
+.parent::-webkit-scrollbar-thumb {
+  background-color:#0B0B0B;
+  border-radius: 10px;
+}
+.parent::-webkit-scrollbar-thumb:hover {
+  background: #0B0B0B; 
+}
+@media (max-width: 768px) {
+  .child {
+      margin-right: 5px;
+  }
+  .child img {
+      border-radius: 4px;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

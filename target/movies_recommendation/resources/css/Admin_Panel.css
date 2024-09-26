@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.Admin_panel_main_div_1{
+    width: 100%;
+    height: 8%;
+
+    display: flex;
+
+    flex-direction: row;
+}
+.Admin_panel_main_div_1_Current_Admin_Name{
+height: 100%;
+width: 85%;
+border: 2px solid red;
+
+}
+.Admin_panel_main_div_1_Current_Admin_Name h3{
+   font-size: 12px;
+   font-family: "Poppins", sans-serif;
+   border: 2px solid red;
+    }
+    .Admin_panel_main_div_1_Current_Admin_Name h4{
+         font-size: 12px;    
+         font-family: "Poppins", sans-serif;
+         border: 2px solid red;
+    }
+
+.Admin_panel_main_div_1_Log_out_Admin{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid #000; */
+    /* text-decoration: none; */
+    border: none;
+}
+.Admin_panel_main_div_1_Log_out_Admin button{
+    height: 80%;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 20%;
+    border-radius: 6px;
+    /* border: 1px solid #000; */
+    text-decoration: none;
+    background-color: #6B2BEA;
+    cursor: pointer;
+    border: none;
+}
+.Admin_panel_main_div a{
+    text-decoration: none;
+}
+.Admin_panel_main_div_1_Log_out_Admin button a h3{
+text-align: center;
+font-size: 16px;
+color: white;
+margin-top:-10px;
+text-decoration:underline none;
+font-family: "Poppins", sans-serif;
+}
+.Admin_panel_main_div_1_Log_out_Admin :hover{
+background-color: #4314c2;
+text-decoration: none;
+}
+
+@media  (max-width:480px){
+    .Admin_panel_main_div_1_Current_Admin_Name h3{
+       
+         font-size: 13px;
+         margin-top: 3%;
+         font-family: "Poppins", sans-serif;
+          }
+    .Admin_panel_main_div_1_Log_out_Admin button{
+        height: 50%;
+        width: 100%;
+        margin-top: 25%;
+        margin-left: 0px;
+        background-color: #6B2BEA;
+    }
+    .Admin_panel_main_div_1_Log_out_Admin button a h3{
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+        }    
+}
+.Admin_panel_main_div_2{
+    width: 100%;
+    height:92%;
+
+}
+.parent {
+    height:100%;
+    width: 100%;
+    display: flex;
+
+}
+.parent h3{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+font-weight: 600;
+}
+.sidebar {
+    width:25%;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar button:hover {
+    background-color: #555;
+}
+
+.content {
+    width: 75%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+}
+.content h3{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+font-weight: 500;
+}
+.content h4{
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+font-weight: 500;
+}
+.content h5{
+    font-size: 12px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+font-weight: 500;
+}
+.section {
+    display: none;
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-buttons button {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-buttons button:last-child {
+    margin-right: 0;
+}
+
+.form-section {
+    display: none;
+    flex-direction: column;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input, .form-section select, .form-section button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-section button {
+    width: 200px;
+    align-self: flex-end;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .content {
+        width: 100%;
+        height: calc(100% - 70px); /* Adjust height based on sidebar height */
+    }
+
+    .section-buttons {
+        flex-direction: column;
+    }
+
+    .section-buttons button {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar button {
+        font-size: 14px;
+    }
+
+    .section-buttons button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,601 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+/* The Modal (background) */
+.modal_2 {
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	/* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+	/* border: 1px solid yellow; */
+}
+
+#main_2 {
+	height: 92%;
+	width: 80%;
+	margin-top: -1%;
+	margin-left: 10%;
+	border-radius: 6px;
+	background-color: #0C0F12;
+}
+
+.m1 {
+	width: 100%;
+	height: 55%;
+	display: flex;
+	flex-direction: row;
+}
+
+.m11 {
+	height: 100%;
+	width: 22%;
+	margin-left: 3%;
+	/* border: 1px solid white; */
+}
+
+.m11 img {
+	height: 80%;
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+.m12 {
+	height: 100%;
+	width: 34%;
+	/* border: 1px solid white; */
+	display: flex;
+	flex-direction: column;
+}
+
+.m121 {
+	/* border: 1px solid red;   */
+	height: 14%;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.m122 {
+	/* border: 1px solid yellow;  */
+	height: 60%;
+	width: 100%;
+}
+
+.m123 {
+	/* border: 1px solid white; */
+	height: 12%;
+	width: 100%;
+}
+
+.m12 h3 {
+	color:white;
+	font-size: 15px;
+	margin-top: 8px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+.m13 {
+	height: 100%;
+	width: 33%;
+	/* border: 1px solid white; */
+	display: flex;
+	margin-left: 3%;
+	margin-top: 0%;
+	flex-direction: column;
+}
+
+.m13 h3 {
+	color: white;
+	font-size: 13px;
+	margin-top: 8px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.m131 {
+	margin-top: 10%;
+}
+
+.m13 div {
+	height: 10%;
+	width: 100%;
+	margin-top: 4px;
+	/* border: 1px solid white; */
+}
+
+.m2 {
+	width: 100%;
+	height: 30%;
+}
+
+.pop_up_second_container {
+	width: 40%; /* Could be more or less, depending on screen size */
+	height: 100%;
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+}
+
+.pop_up_second_container_button_watch {
+	height: 24%;
+	width: 40%;
+	border-radius: 4px;
+	margin-top: 4%;
+	margin-left: 33%;
+	flex-direction: row;
+	display: flex;
+	/* background-color: white; */
+}
+
+.pop_up_second_container_button_watch_1 {
+	height: 100%;
+	width: 20%;
+	background-color: white;
+}
+
+.pop_up_second_container_button_watch_1 img {
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 18%;
+	border: none;
+}
+
+.pop_up_second_container_button_watch_2 {
+	height: 100%;
+	width: 80%;
+	/* border: 1px solid white; */
+	background-color: white;
+}
+
+.pop_up_second_container_button_watch_2 button {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.pop_up_second_container_button_watch_2 h3 {
+	margin-left: 3%;
+	color: black;
+	font-size: 15px;
+	font-weight: 550;
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+}
+
+/* ================================================================ */
+
+/* Full-width input fields */
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	/* display: inline-block; */
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: -10%;
+	background-color: #000;
+	color: white;
+	border: 1px solid red;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 2%;
+	background-color: #000;
+	color: white;
+	border: 1px solid red;
+}
+
+.give_rating_submit h3 {
+	margin-top: 3%;
+}
+
+.give_rating_submit h3 {
+	text-align: center;
+	color: #f44336;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	margin-top: 20%;
+	margin-left: 50%;
+	width: 20%; /* Full width */
+	height: 28%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	/* background-color: black; */
+	padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	/* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+/* 
+@
+-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)
+}
+
+to {
+	-webkit-transform: scale(1)
+}
+
+}
+@
+keyframes animatezoom {
+	from {transform: scale(0)
+}
+
+to {
+	transform: scale(1)
+} */
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+/* 
+
+=================================================================
+
+ */
+.pop_up_second_container_button_watchList {
+	height: 24%;
+	width: 40%;
+	border-radius: 4px;
+	margin-top: 2%;
+	margin-left: 33%;
+	flex-direction: row;
+	display: flex;
+	background-color: white;
+	/* background-color: white; */
+}
+
+.pop_up_second_container_button_watchList_1 {
+	height: 100%;
+	width: 20%;
+}
+
+.pop_up_second_container_button_watchList_1 img {
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 18%;
+	border: none;
+}
+
+.pop_up_second_container_button_watchList_2 {
+	height: 100%;
+	width: 80%;
+}
+
+.pop_up_second_container_button_watchList_2 button {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.pop_up_second_container_button_watchList_2 h3 {
+	margin-left: 3%;
+	color: black;
+	font-size: 15px;
+	font-weight: 550;
+	text-align: left;
+	font-family: "Poppins", sans-serif;
+}
+
+.container_3 {
+	/* border: 1px solid red; */
+	height: 14%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -21%;
+	margin-top: -21%;
+}
+
+.container_3 h4 {
+	font-size: 15px;
+	margin-top: 10px;
+	font-family: "Poppins", sans-serif;
+	margin-top: 3%;
+	margin-left: 6%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn_1 {
+	background-color: #f44336;
+	height: 50%;
+	width: 8%;
+	margin-top: 1%;
+	margin-left: 88%;
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.cancelbtn_1 h3 {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+}
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* =================mediA query for tablet view========== */
+@media ( min-width :480px) and (max-width:1024px) {
+	#main_2 {
+		height: 92%;
+		width: 100%;
+		margin-left: 0%;
+		border-radius: 6px;
+		background-color: #0C0F12;
+	}
+	.m11 {
+		height: 100%;
+		width: 22%;
+		margin-left: 3%;
+		/* border: 1px solid white; */
+	}
+	.m11 img {
+		height: 70%;
+		width: 70%;
+		margin-top: 17%;
+		margin-left: 15%;
+	}
+	.m12 h3 {
+		color: white;
+		font-size: 13px;
+		margin-top: 8px;
+		font-weight: 400;
+		font-family: "Poppins", sans-serif;
+	}
+	.m13 h3 {
+		color: white;
+		font-size: 13px;
+		margin-top: 8px;
+		font-weight: 400;
+		font-family: "Poppins", sans-serif;
+	}
+	.pop_up_second_container_button_watch {
+		height: 24%;
+		width: 5%;
+		border: 1px solid white;
+		border-radius: 4px;
+		margin-top: 4%;
+		margin-left: 33%;
+		flex-direction: row;
+		display: flex;
+		border: 1px solid red;
+		/* background-color: white; */
+	}
+	.pop_up_second_container_button_watch_2 h3 {
+		margin-left: 3%;
+		color: black;
+		font-size: 12px;
+		font-weight: 550;
+		text-align: left;
+		font-family: "Poppins", sans-serif;
+	}
+	.pop_up_second_container_button_watchList {
+		height: 24%;
+		width: 5%;
+		border-radius: 4px;
+		margin-top: 2%;
+		margin-left: 33%;
+		flex-direction: row;
+		display: flex;
+		border: 1px solid red;
+		/* background-color: white; */
+	}
+	.pop_up_second_container_button_watchList_2 h3 {
+		margin-left: 3%;
+		color: black;
+		font-size: 12px;
+		font-weight: 550;
+		text-align: left;
+		font-family: "Poppins", sans-serif;
+	}
+	.container_3 {
+		/* border: 1px solid red; */
+		height: 14%;
+		width: 100%;
+		margin-left: 0%;
+		border: 1px solid white;
+		margin-top: -25%;
+	}
+	.container_3 h4 {
+		font-size: 15px;
+		margin-top: 10px;
+		font-family: "Poppins", sans-serif;
+		margin-top: 3%;
+		margin-left: 6%;
+	}
+	.cancelbtn_1 {
+		background-color: #f44336;
+		height: 48%;
+		width: 9%;
+		margin-top: 1%;
+		margin-left: 88%;
+		border: none;
+		cursor: pointer;
+		border-radius: 6px;
+	}
+	.cancelbtn_1 h3 {
+		font-size: 13px;
+		font-weight: 600;
+		font-family: "Poppins", sans-serif;
+	}
+
+	/* ================================================================ */
+
+	/* Full-width input fields */
+	input[type=text] {
+		width: 100%;
+		padding: 12px 20px;
+		/* display: inline-block; */
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		margin-top: -10%;
+		background-color: #000;
+		color: white;
+		border: 1px solid red;
+	}
+	input[type=text] {
+		width: 100%;
+		padding: 12px 20px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		margin-top: 2%;
+		background-color: #000;
+		color: white;
+		border: 1px solid red;
+	}
+	.give_rating_submit h3 {
+		margin-top: 3%;
+	}
+	.give_rating_submit h3 {
+		text-align: center;
+		color: #f44336;
+	}
+
+	/* The Modal (background) */
+	.modal {
+		display: none; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		left: 0;
+		top: 0;
+		margin-top: 39%;
+		margin-left: 50%;
+		width: 28%; /* Full width */
+		height: 28%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		/* background-color: black; */
+		padding-top: 60px;
+	}
+
+	/* Modal Content/Box */
+	.modal-content {
+		background-color: #fefefe;
+		margin: 5% auto 15% auto;
+		/* 5% from the top, 15% from the bottom and centered */
+		border: 1px solid #888;
+		width: 80%; /* Could be more or less, depending on screen size */
+	}
+
+	/* The Close Button (x) */
+	.close {
+		position: absolute;
+		right: 25px;
+		top: 0;
+		color: #000;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.close:hover, .close:focus {
+		color: red;
+		cursor: pointer;
+	}
+
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+ 
+
+
+/* =================================================================
+ */
+
+
+
+
+}
